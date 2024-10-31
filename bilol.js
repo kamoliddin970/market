@@ -1,4 +1,5 @@
 console.log("Bilol");
+//--------------------------------------------
 class Employee {
   getSalary() {
     console.log("Xodimning maoshi aniqlandi.");
@@ -25,3 +26,30 @@ class Designer extends Employee {
 
 let xodimlar = [new Manager(), new Developer(), new Designer()];
 xodimlar.forEach((xodim) => xodim.getSalary());
+//-----------------------------------------------------
+class Laptop {
+  getPrice() {
+    console.log("Noutbukning narxi hisoblanmoqda...");
+  }
+}
+
+class GamingLaptop extends Laptop {
+  getPrice() {
+    console.log("gaming noutbuk: 1500$");
+  }
+}
+
+class BusinessLaptop extends Laptop {
+  getPrice() {
+    console.log("business noutbuk: 1200$");
+  }
+}
+
+class StudentLaptop extends Laptop {
+  getPrice() {
+    console.log("Student laptop: 300$");
+  }
+}
+
+let laptops = [new GamingLaptop(), new BusinessLaptop(), new StudentLaptop()];
+laptops.forEach((laptop) => laptop.getPrice());
