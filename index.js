@@ -78,6 +78,19 @@ console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
 
+function ziyodillo() {
+  let son = 0;
+  return function () {
+    return son++;
+  };
+}
+//ziyodillo
+const son = ziyodillo();
+console.log(son);
+console.log(son);
+console.log(son);
+console.log(son);
+
 // javohir
 
 const arr = []
