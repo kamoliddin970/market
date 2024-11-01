@@ -1,7 +1,7 @@
 console.log("ok");
 console.log(7 + 7);
 console.log("Bekzod");
-
+//Husniddin
 
 function Husniddin() {
     let count = 0;
@@ -77,4 +77,19 @@ const balcon = new Balcon();
 console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
+
+// javohir
+
+const arr = []
+function javohir() {
+    arr.push(javohir)
+    console.log(arr.length)
+}
+javohir()
+javohir()
+javohir()
+javohir()
+javohir()
+javohir()
+
 
