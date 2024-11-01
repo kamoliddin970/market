@@ -1,6 +1,20 @@
 console.log("ok");
 console.log(7 + 7);
 console.log("Bekzod");
+
+
+
+
+
+const Bekmuhammad = ()=>{
+    i=0
+    return ()=>{
+        return ++i
+    }
+}
+const chaqiruv = Bekmuhammad();
+console.log(chaqiruv());
+
 //Husniddin
 
 function Husniddin() {
@@ -77,6 +91,21 @@ console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
 
+//Muhammadaziz's closure function
+function muhammadazizClosure() {
+  let a=0
+  function multiply(params) {
+    return ++a
+  }
+  return multiply()
+}
+
+console.log(muhammadazizClosure())
+console.log(muhammadazizClosure())
+console.log(muhammadazizClosure())
+console.log(muhammadazizClosure())
+
+
 const bilolClosure = () => {
   let i = 0;
 
@@ -89,6 +118,8 @@ const bilol = bilolClosure();
 
 console.log(bilol());
 console.log(bilol());
+
+
 
 function ziyodillo() {
   let son = 0;
@@ -105,12 +136,14 @@ console.log(son);
 
 // javohir
 
-const javohirCloses = () => {
-  let i = 1;
-  return () => {
-    return i++;
+
+  const javohirCloses = () => {
+    let i = 1;
+    return () => {
+      return i++;
+    };
   };
-};
+
 
 const javohir = javohirCloses();
 console.log(javohir());
@@ -178,3 +211,4 @@ const triple = Bekzod(3);
 
 console.log(double(5));
 console.log(triple(5));
+
