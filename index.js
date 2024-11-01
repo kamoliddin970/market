@@ -59,3 +59,25 @@ const balcon = new Balcon();
 console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
+
+const jasurbekClosure = () => {
+  let i = 0;
+
+  return () => {
+    return ++i;
+  };
+};
+
+const jasurbek = jasurbekClosure();
+
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
