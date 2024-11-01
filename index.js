@@ -1,6 +1,23 @@
 console.log("ok");
 console.log(7 + 7);
 console.log("Bekzod");
+//Husniddin
+
+function Husniddin() {
+  let count = 0;
+
+  function Husniddin2() {
+    count++;
+    console.log(count);
+  }
+
+  return Husniddin2;
+}
+
+const counter = Husniddin();
+counter();
+counter();
+counter();
 
 function double(n) {
   return n * 2;
@@ -60,6 +77,19 @@ console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
 
+function ziyodillo() {
+  let son = 0;
+  return function () {
+    return son++;
+  };
+}
+//ziyodillo
+const son = ziyodillo();
+console.log(son);
+console.log(son);
+console.log(son);
+console.log(son);
+
 // javohir
 
 const arr = [];
@@ -67,6 +97,7 @@ function javohir() {
   arr.push(javohir);
   console.log(arr.length);
 }
+
 javohir();
 javohir();
 javohir();
