@@ -77,6 +77,21 @@ console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
 
+//Muhammadaziz's closure function
+function muhammadazizClosure() {
+  let a=0
+  function multiply(params) {
+    return ++a
+  }
+  return multiply()
+}
+
+console.log(muhammadazizClosure())
+console.log(muhammadazizClosure())
+console.log(muhammadazizClosure())
+console.log(muhammadazizClosure())
+
+
 const bilolClosure = () => {
   let i = 0;
 
@@ -89,6 +104,8 @@ const bilol = bilolClosure();
 
 console.log(bilol());
 console.log(bilol());
+
+
 
 function ziyodillo() {
   let son = 0;
@@ -105,17 +122,14 @@ console.log(son);
 
 // javohir
 
-const arr = [];
-function javohir() {
-  arr.push(javohir);
-  console.log(arr.length);
+
   const javohirCloses = () => {
     let i = 1;
     return () => {
       return i++;
     };
   };
-}
+
 const javohir = javohirCloses();
 console.log(javohir());
 console.log(javohir());
