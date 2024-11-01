@@ -61,10 +61,10 @@ console.log(orta.getTicket());
 console.log(balcon.getTicket());
 
 const jasurbekClosure = () => {
-  let i = 0;
+  let e = 0;
 
   return () => {
-    return ++i;
+    return ++e;
   };
 };
 
