@@ -2,13 +2,18 @@ console.log("ok");
 console.log(7 + 7);
 console.log("Bekzod");
 
-function husniddin() {
-    return (i){
-        for (let i = 0; i < array.length; i++) {
-            const element = array[i];
-            
-        }
+function Husniddin() {
+    let count = 0; 
+    
+    function Husniddin2() {
+        count++;
+        console.log(count); 
     }
     
+    return Husniddin2; 
 }
-console.log(husniddin());
+
+const counter = Husniddin(); 
+counter(); 
+counter(); 
+counter(); 
