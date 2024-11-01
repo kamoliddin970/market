@@ -97,15 +97,15 @@ function muhammadazizClosure() {
   function multiply(params) {
     return ++a
   }
-  return multiply()
+  return multiply
 }
+const muhammadaziz23=muhammadazizClosure()
+console.log(muhammadaziz23())
+console.log(muhammadaziz23())
+console.log(muhammadaziz23())
+console.log(muhammadaziz23())
 
-console.log(muhammadazizClosure())
-console.log(muhammadazizClosure())
-console.log(muhammadazizClosure())
-console.log(muhammadazizClosure())
-
-
+///i changed, bro🗿🗿🗿. don't be upset
 const bilolClosure = () => {
   let i = 0;
 
@@ -120,14 +120,14 @@ console.log(bilol());
 console.log(bilol());
 
 
-
+//ziyodillo
 function ziyodillo() {
   let son = 0;
   return function () {
     return son++;
   };
 }
-//ziyodillo
+
 const son = ziyodillo();
 console.log(son);
 console.log(son);
@@ -163,6 +163,7 @@ const kamoliddinClosure = () => {
     return ++i;
   };
 };
+const kamoliddin=kamoliddinClosure()
 
 const jasurbekClosure = () => {
   let e = 0;
@@ -206,9 +207,18 @@ function Bekzod(factor) {
   };
 }
 
-const double = Bekzod(2);
+//const double = Bekzod(2); i commentearied it cuz it used twice and it's a bug🗿
 const triple = Bekzod(3);
 
 console.log(double(5));
 console.log(triple(5));
 
+//men bir🗿🗿🗿 it's a recursion to create nickname for me
+function muhammad2() {
+  let yU=23
+  return ()=>{
+    return `@muhammadaziz${+yU+ "_yuldashev"}`
+  }
+}
+const muhammadazz=muhammad2()
+console.log("that is for homework:",muhammadazz());//enough for today
