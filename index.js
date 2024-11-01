@@ -59,3 +59,20 @@ const balcon = new Balcon();
 console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
+
+
+
+// javohir
+
+const arr = []
+function javohir(){
+    arr.push(javohir)
+    console.log(arr.length)
+}
+javohir()
+javohir()
+javohir()
+javohir()
+javohir()
+javohir()
+
