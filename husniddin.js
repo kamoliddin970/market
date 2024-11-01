@@ -3,21 +3,21 @@ console.log("Husniddin");
 // 1-misol
 
 class Hayvon {
-    speak() {
-        console.log("Hayvon ovoz chiqardi.");
-    }
+  speak() {
+    console.log("Hayvon ovoz chiqardi.");
+  }
 }
 
 class dog extends Hayvon {
-    speak() {
-        console.log("Vov-vov!");
-    }
+  speak() {
+    console.log("Vov-vov!");
+  }
 }
 
 class cat extends Hayvon {
-    speak() {
-        console.log("Miyov!");
-    }
+  speak() {
+    console.log("Miyov!");
+  }
 }
 
 const it = new dog();
@@ -28,27 +28,25 @@ mushuk.speak();
 
 // 2-misol
 
-
 class Ticket {
-    getTicket() {
-        return 500000;
-
-    }
+  getTicket() {
+    return 500000;
+  }
 }
-class oldiQator extends Ticket { }
+class oldiQator extends Ticket {}
 class ortaQator extends Ticket {
-    getTicket() {
-        return 300000;
-    }
+  getTicket() {
+    return 300000;
+  }
 }
 class Balcon extends Ticket {
-    getTicket() {
-        return 100000;
-    }
+  getTicket() {
+    return 100000;
+  }
 }
-const oldi = new oldiQator()
-const orta = new ortaQator()
-const balcon = new Balcon()
+const oldi = new oldiQator();
+const orta = new ortaQator();
+const balcon = new Balcon();
 
 console.log(oldi.getTicket());
 console.log(orta.getTicket());
