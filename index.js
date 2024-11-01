@@ -98,6 +98,7 @@ const javohirCloses = () => {
     return i++;
   };
 };
+
 const javohir = javohirCloses();
 console.log(javohir());
 console.log(javohir());
@@ -117,7 +118,27 @@ const kamoliddinClosure = () => {
   };
 };
 
-const kamoliddin = kamoliddinClosure();
+const jasurbekClosure = () => {
+  let e = 0;
+
+  return () => {
+    return ++e;
+  };
+};
+
+const jasurbek = jasurbekClosure();
+
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
+console.log(jasurbek());
 
 console.log(kamoliddin());
 console.log(kamoliddin());
@@ -130,6 +151,7 @@ console.log(kamoliddin());
 console.log(kamoliddin());
 console.log(kamoliddin());
 console.log(kamoliddin());
+
 // Bekzod
 
 function Bekzod(factor) {
