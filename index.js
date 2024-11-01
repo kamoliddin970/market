@@ -59,3 +59,10 @@ const balcon = new Balcon();
 console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
+
+function ziyodillo() {
+  return function add1(son) {
+    
+  };
+}
+console.log(ziyodillo());
