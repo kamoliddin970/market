@@ -60,10 +60,9 @@ console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
 
-
-
 // javohir
 
+<<<<<<< HEAD
 const javohirCloses = ()=>{
   let i = 1
   return ()=>{
@@ -78,4 +77,40 @@ console.log(javohir())
 console.log(javohir())
 console.log(javohir())
 console.log(javohir())
+=======
+const arr = [];
+function javohir() {
+  arr.push(javohir);
+  console.log(arr.length);
+}
+javohir();
+javohir();
+javohir();
+javohir();
+javohir();
+javohir();
+>>>>>>> c833a7d26aa0b8444cdf6e676d6c1a4c2ed870ba
 
+// kamoliddin's closure function
+
+const kamoliddinClosure = () => {
+  let i = 0;
+
+  return () => {
+    return ++i;
+  };
+};
+
+const kamoliddin = kamoliddinClosure();
+
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
