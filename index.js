@@ -85,11 +85,37 @@ function javohir() {
     arr.push(javohir)
     console.log(arr.length)
 }
-javohir()
-javohir()
-javohir()
-javohir()
-javohir()
-javohir()
 
+javohir();
+javohir();
+javohir();
+javohir();
+javohir();
+javohir();
+
+
+
+// kamoliddin's closure function
+
+const kamoliddinClosure = () => {
+    let i = 0;
+
+    return () => {
+        return ++i;
+    };
+};
+
+const kamoliddin = kamoliddinClosure();
+
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
+console.log(kamoliddin());
 
