@@ -77,6 +77,19 @@ console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
 
+const bilolClosure = () => {
+  let i = 0;
+
+  return () => {
+    return ++i;
+  };
+};
+
+const bilol = bilolClosure();
+
+console.log(bilol());
+console.log(bilol());
+
 function ziyodillo() {
   let son = 0;
   return function () {
