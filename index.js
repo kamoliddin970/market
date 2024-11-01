@@ -64,15 +64,18 @@ console.log(balcon.getTicket());
 
 // javohir
 
-const arr = []
-function javohir(){
-    arr.push(javohir)
-    console.log(arr.length)
+const javohirCloses = ()=>{
+  let i = 1
+  return ()=>{
+    return i++
+  }
 }
-javohir()
-javohir()
-javohir()
-javohir()
-javohir()
-javohir()
+const javohir = javohirCloses()
+console.log(javohir())
+console.log(javohir())
+console.log(javohir())
+console.log(javohir())
+console.log(javohir())
+console.log(javohir())
+console.log(javohir())
 
