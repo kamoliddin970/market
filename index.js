@@ -60,13 +60,15 @@ console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
 
-function Bilol() {
-  let counter = 0;
-  function market() {
-    counter + 1;
-  }
-  market();   
-  return counter;
-}
+const bilolClosure = () => {
+  let i = 0;
 
+  return () => {
+    return ++i;
+  };
+};
 
+const bilol = bilolClosure();
+
+console.log(bilol());
+console.log(bilol());
