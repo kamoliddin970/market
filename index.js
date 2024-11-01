@@ -59,3 +59,14 @@ const balcon = new Balcon();
 console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
+
+function Bilol() {
+  let counter = 0;
+  function market() {
+    counter + 1;
+  }
+  market();   
+  return counter;
+}
+
+
