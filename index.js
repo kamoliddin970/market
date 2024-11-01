@@ -91,6 +91,22 @@ console.log(muhammadazizClosure())
 console.log(muhammadazizClosure())
 console.log(muhammadazizClosure())
 
+
+const bilolClosure = () => {
+  let i = 0;
+
+  return () => {
+    return ++i;
+  };
+};
+
+const bilol = bilolClosure();
+
+console.log(bilol());
+console.log(bilol());
+
+
+
 function ziyodillo() {
   let son = 0;
   return function () {
@@ -106,17 +122,14 @@ console.log(son);
 
 // javohir
 
-const arr = [];
-function javohir() {
-  arr.push(javohir);
-  console.log(arr.length);
+
   const javohirCloses = () => {
     let i = 1;
     return () => {
       return i++;
     };
   };
-}
+
 const javohir = javohirCloses();
 console.log(javohir());
 console.log(javohir());
