@@ -61,8 +61,28 @@ console.log(orta.getTicket());
 console.log(balcon.getTicket());
 
 function ziyodillo() {
-  return function add1(son) {
-    
+  let son = 0;
+  return function () {
+    return son++;
   };
 }
-console.log(ziyodillo());
+//ziyodillo
+const son = ziyodillo();
+console.log(son);
+console.log(son);
+console.log(son);
+console.log(son);
+
+// javohir
+
+const arr = [];
+function javohir() {
+  arr.push(javohir);
+  console.log(arr.length);
+}
+javohir();
+javohir();
+javohir();
+javohir();
+javohir();
+javohir();
