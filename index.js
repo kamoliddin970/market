@@ -59,3 +59,10 @@ const balcon = new Balcon();
 console.log(oldi.getTicket());
 console.log(orta.getTicket());
 console.log(balcon.getTicket());
+function muhammadazizClosure(abv) {
+  function you() {
+    return abv+1
+  }
+  return you()
+}
+console.log(muhammadazizClosure(3))
