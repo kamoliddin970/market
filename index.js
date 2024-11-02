@@ -222,3 +222,17 @@ function muhammad2() {
 }
 const muhammadazz=muhammad2()
 console.log("that is for homework:",muhammadazz());//enough for today
+
+//Abror
+function logAbror(count) {
+  
+  if (count <= 0) {
+      return; 
+  }
+  
+  console.log("Abror");
+  logAbror(count - 1);
+}
+
+
+logAbror(1);
