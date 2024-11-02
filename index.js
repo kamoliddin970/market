@@ -252,12 +252,14 @@ const ism = "Javohir Yakubov"
 ten_name(ism)
  
 /// aaa uzr oma yana bezovta qildim😂. nma qilishdi tori tushunmabman🗿
-function returnMyName(имя){
+function returnMyName(){
+  let имя="Muhammadaziz"
   if (typeof(имя)!=='string') {
     return "please write only name🗿"
   }
-  console.log(имя);
-  returnMyName(имя-1)
+  return ()=>{
+    return имя
+  }
 }
-const azz="Muhammadaziz"
-returnMyName(azz)
+const azzSResult=returnMyName()
+console.log(azzSResult());   ///anyway (MEN BIR)🗿. even i got the conclusion wrongly🗿🗿🗿
