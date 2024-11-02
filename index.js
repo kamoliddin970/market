@@ -266,10 +266,10 @@ printName();
 
 // --> "I was one of the last to complete the task 🗿" // Ziyodullo's homework 🧑‍💻
 
-let myinfo = 0;
+let logName = 0;
 function myInfo() {
-  if (myinfo < 10) {
-    ++myinfo;
+  if (logName < 10) {
+    ++logName;
     console.log("Ziyodullo Najmiddinov");
     myInfo();
   }
