@@ -236,3 +236,17 @@ function logAbror(count) {
 
 
 logAbror(1);
+
+
+// men 4🗿
+
+function ten_name(name, count = 10) {
+  if (count == 0) {
+      return
+  }
+  console.log(name)
+  ten_name(name, count - 1)
+}
+
+const ism = "Javohir Yakubov"
+ten_name(ism)
