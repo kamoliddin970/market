@@ -2,16 +2,12 @@ console.log("ok");
 console.log(7 + 7);
 console.log("Bekzod");
 
-
-
-
-
-const Bekmuhammad = ()=>{
-    i=0
-    return ()=>{
-        return ++i
-    }
-}
+const Bekmuhammad = () => {
+  i = 0;
+  return () => {
+    return ++i;
+  };
+};
 const chaqiruv = Bekmuhammad();
 console.log(chaqiruv());
 
@@ -93,17 +89,17 @@ console.log(balcon.getTicket());
 
 //Muhammadaziz's closure function
 function muhammadazizClosure() {
-  let a=0
+  let a = 0;
   function multiply(params) {
-    return ++a
+    return ++a;
   }
-  return multiply
+  return multiply;
 }
-const muhammadaziz23=muhammadazizClosure()
-console.log(muhammadaziz23())
-console.log(muhammadaziz23())
-console.log(muhammadaziz23())
-console.log(muhammadaziz23())
+const muhammadaziz23 = muhammadazizClosure();
+console.log(muhammadaziz23());
+console.log(muhammadaziz23());
+console.log(muhammadaziz23());
+console.log(muhammadaziz23());
 
 ///i changed, bro🗿🗿🗿. don't be upset
 const bilolClosure = () => {
@@ -118,7 +114,6 @@ const bilol = bilolClosure();
 
 console.log(bilol());
 console.log(bilol());
-
 
 //ziyodillo
 function ziyodillo() {
@@ -136,14 +131,12 @@ console.log(son);
 
 // javohir
 
-
-  const javohirCloses = () => {
-    let i = 1;
-    return () => {
-      return i++;
-    };
+const javohirCloses = () => {
+  let i = 1;
+  return () => {
+    return i++;
   };
-
+};
 
 const javohir = javohirCloses();
 console.log(javohir());
@@ -163,7 +156,7 @@ const kamoliddinClosure = () => {
     return ++i;
   };
 };
-const kamoliddin=kamoliddinClosure()
+const kamoliddin = kamoliddinClosure();
 
 const jasurbekClosure = () => {
   let e = 0;
@@ -215,63 +208,72 @@ console.log(triple(5));
 
 //men bir🗿🗿🗿 it's a recursion to create nickname for me
 function muhammad2() {
-  let yU=23
-  return ()=>{
-    return `@muhammadaziz${+yU+ "_yuldashev"}`
-  }
+  let yU = 23;
+  return () => {
+    return `@muhammadaziz${+yU + "_yuldashev"}`;
+  };
 }
-const muhammadazz=muhammad2()
-console.log("that is for homework:",muhammadazz());//enough for today
+const muhammadazz = muhammad2();
+console.log("that is for homework:", muhammadazz()); //enough for today
 
 //Abror
 function logAbror(count) {
-  
   if (count <= 0) {
-      return; 
+    return;
   }
-  
+
   console.log("Abror");
   logAbror(count - 1);
 }
 
-
 logAbror(1);
-
 
 // men 4🗿
 
 function ten_name(name, count = 10) {
   if (count == 0) {
-      return
+    return;
   }
-  console.log(name)
-  ten_name(name, count - 1)
+  console.log(name);
+  ten_name(name, count - 1);
 }
 
-const ism = "Javohir Yakubov"
-ten_name(ism)
- 
+const ism = "Javohir Yakubov";
+ten_name(ism);
+
 /// aaa uzr oma yana bezovta qildim😂. nma qilishdi tori tushunmabman🗿
-function returnMyName(){
-  let имя="Muhammadaziz"
-  if (typeof(имя)!=='string') {
-    return "please write only name🗿"
+function returnMyName() {
+  let имя = "Muhammadaziz";
+  if (typeof имя !== "string") {
+    return "please write only name🗿";
   }
-  return ()=>{
-    return имя
-  }
+  return () => {
+    return имя;
+  };
 }
-const azzSResult=returnMyName()
-console.log(azzSResult());   ///anyway (MEN BIR)🗿. even i got the conclusion wrongly🗿🗿🗿
-
-
+const azzSResult = returnMyName();
+console.log(azzSResult()); ///anyway (MEN BIR)🗿. even i got the conclusion wrongly🗿🗿🗿
 
 //Bilol's recursion function
 function printName(count = 0) {
   if (count < 10) {
-      console.log("Biloliddin Sobirdjonov"); 
-      printName(count + 1); 
+    console.log("Biloliddin Sobirdjonov");
+    printName(count + 1);
   }
 }
 
-printName(); 
+printName();
+
+// --> "I was one of the last to complete the task 🗿" // Ziyodullo's homework 🧑‍💻
+
+let myinfo = 0;
+function myInfo() {
+  if (myinfo < 10) {
+    ++myinfo;
+    console.log("Ziyodullo Najmiddinov");
+    myInfo();
+  }
+}
+myInfo();
+
+// homework is ready 😎
