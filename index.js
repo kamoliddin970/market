@@ -263,3 +263,15 @@ function returnMyName(){
 }
 const azzSResult=returnMyName()
 console.log(azzSResult());   ///anyway (MEN BIR)🗿. even i got the conclusion wrongly🗿🗿🗿
+
+
+
+//Bilol's recursion function
+function printName(count = 0) {
+  if (count < 10) {
+      console.log("Biloliddin Sobirdjonov"); 
+      printName(count + 1); 
+  }
+}
+
+printName(); 
