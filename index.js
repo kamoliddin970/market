@@ -250,3 +250,14 @@ function ten_name(name, count = 10) {
 
 const ism = "Javohir Yakubov"
 ten_name(ism)
+ 
+/// aaa uzr oma yana bezovta qildim😂. nma qilishdi tori tushunmabman🗿
+function returnMyName(имя){
+  if (typeof(имя)!=='string') {
+    return "please write only name🗿"
+  }
+  console.log(имя);
+  returnMyName(имя-1)
+}
+const azz="Muhammadaziz"
+returnMyName(azz)
