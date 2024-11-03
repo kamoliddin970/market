@@ -277,3 +277,13 @@ function myInfo() {
 myInfo();
 
 // homework is ready 😎
+
+function getName(num) {
+  if (num > 10) {
+    return;
+  }
+  console.log(num + " Jasurbek");
+  return getName(num + 1);
+}
+
+getName(1);
