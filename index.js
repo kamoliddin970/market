@@ -278,6 +278,17 @@ myInfo();
 
 // homework is ready 😎
 
+//Bekzod`s homework
+function printName(count) {
+  if (count <= 10) {
+    console.log("Karimov Bekzod");
+    printName(count + 1);
+  }
+}
+printName(1);
+
+// Jasurbek's homework
+
 function getName(num) {
   if (num > 10) {
     return;
