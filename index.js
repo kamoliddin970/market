@@ -286,3 +286,15 @@ function printName(count) {
   }
 }
 printName(1);
+
+// Jasurbek's homework
+
+function getName(num) {
+  if (num > 10) {
+    return;
+  }
+  console.log(num + " Jasurbek");
+  return getName(num + 1);
+}
+
+getName(1);
