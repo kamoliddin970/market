@@ -11,8 +11,14 @@ const Bekmuhammad = () => {
 const chaqiruv = Bekmuhammad();
 console.log(chaqiruv());
 
+// My Function 
+function Name(urinish) {
+  if (urinish <= 0) return;
+  console.log("BEKMUHAMMAD");
+  Name(urinish - 1)
+}
+Name(10)
 
-// r
 
 //Husniddin
 
