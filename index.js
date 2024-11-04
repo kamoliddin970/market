@@ -11,6 +11,9 @@ const Bekmuhammad = () => {
 const chaqiruv = Bekmuhammad();
 console.log(chaqiruv());
 
+
+// r
+
 //Husniddin
 
 function Husniddin() {
